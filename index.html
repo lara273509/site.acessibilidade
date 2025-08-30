@@ -1,0 +1,228 @@
+<!-- Lara Alves dos Santos 2E 15/08/2025 -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thalles Roberto — Oficial</title>
+  <meta name="description" content="Site oficial não‑oficial de fã com biografia, carreira, discografia, agenda e contato de Thalles Roberto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topbar" role="banner">
+    <nav class="navbar" aria-label="Menu principal">
+      <div class="brand">
+        <span class="brand-logo" aria-hidden="true">TR</span>
+        <span class="brand-text">Thalles Roberto</span>
+      </div>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">☰</button>
+      <ul id="menu" class="menu">
+        <li><a href="#inicio" accesskey="i">Início</a></li>
+        <li><a href="#biografia" accesskey="b">Biografia</a></li>
+        <li><a href="#carreira" accesskey="c">Carreira</a></li>
+        <li><a href="#discografia" accesskey="d">Discografia</a></li>
+        <li><a href="#agenda" accesskey="a">Agenda</a></li>
+        <li><a href="#contato" accesskey="o">Contato</a></li>
+        <li>
+          <div class="accessibility-controls">
+            <button id="theme-toggle" class="pill" aria-label="Alternar tema claro/escuro">
+              🌙 Tema
+            </button>
+            <button id="font-size-toggle" class="pill" aria-label="Ajustar tamanho da fonte">
+              A+ Fonte
+            </button>
+
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section id="inicio" class="hero" role="region" aria-label="Apresentação">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1><span class="serif">Voz. Fé. Energia.</span><br>Thalles Roberto</h1>
+          <p class="lead">Cantor e compositor brasileiro com uma trajetória marcada por intensidade, mensagem e carisma nos palcos.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#agenda">Ver Agenda</a>
+            <a class="btn btn-ghost" href="#discografia">Ouvir Álbuns</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="./images/1000160008.jpg" alt="Thalles Roberto com guitarra e óculos, cantando com intensidade" />
+          <figcaption class="sr-only">Foto promocional do artista</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section id="biografia" class="section" role="region" aria-labelledby="bio-title">
+      <div class="container">
+        <h2 id="bio-title" class="section-title">Biografia</h2>
+        <div class="grid-2">
+          <div>
+            <p>Thalles Roberto da Silva (Passos, MG) é um dos nomes mais reconhecidos da música cristã contemporânea no Brasil. Ainda jovem, integrou equipes de apoio e backing vocal no cenário pop, experiência que refinou sua presença de palco e sua identidade musical.</p>
+            <p>Em carreira solo, consolidou um repertório autoral com forte apelo vocal, letras de fé e apresentações de alta energia, aproximando público de diferentes gerações.</p>
+          </div>
+          <aside class="card" aria-label="Destaques rápidos">
+            <ul class="facts">
+              <li><strong>Origem:</strong> Passos, Minas Gerais</li>
+              <li><strong>Atuação:</strong> Cantor, compositor e ministro</li>
+              <li><strong>Estilo:</strong> Pop, soul e música cristã</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARREIRA / TIMELINE -->
+    <section id="carreira" class="section alt" role="region" aria-labelledby="career-title">
+      <div class="container">
+        <h2 id="career-title" class="section-title">Carreira</h2>
+        <ol class="timeline" aria-label="Linha do tempo da carreira">
+          <li>
+            <div class="t-card">
+              <time datetime="2009">2009</time>
+              <h3>Na Sala do Pai</h3>
+              <p>Projeto que ampliou seu alcance nacional com composições intensas e performance marcante.</p>
+            </div>
+          </li>
+          <li>
+            <div class="t-card">
+              <time datetime="2011">2011</time>
+              <h3>Uma História Escrita pelo Dedo de Deus</h3>
+              <p>Consolidação no cenário da música cristã com canções que se tornaram referência.</p>
+            </div>
+          </li>
+          <li>
+            <div class="t-card">
+              <time datetime="2012">2012</time>
+              <h3>Sejam Cheios do Espírito Santo</h3>
+              <p>Repertório com sonoridade mais ampla, unindo pop, soul e elementos congregacionais.</p>
+            </div>
+          </li>
+          <li>
+            <div class="t-card">
+              <time datetime="2016">2016</time>
+              <h3>As Canções que Canto pra Ela</h3>
+              <p>Projeto com temática afetiva, explorando nuances melódicas e arranjos intimistas.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- DISCOGRAFIA / CARDS -->
+    <section id="discografia" class="section" role="region" aria-labelledby="disc-title">
+      <div class="container">
+        <h2 id="disc-title" class="section-title">Discografia</h2>
+        <div class="albums" role="list">
+          <!-- Cards de exemplo; você pode duplicar e trocar capa/título -->
+          <article class="album card" role="listitem">
+            <img src="./images/1000160013.jpg" alt="Capa do álbum Na Sala do Pai" loading="lazy">
+            <div class="album-body">
+              <h3>Na Sala do Pai (2009)</h3>
+              <a class="btn btn-ghost" href="https://open.spotify.com/search/Thalles%20Roberto%20Na%20Sala%20do%20Pai" target="_blank" rel="noopener">Ouvir</a>
+            </div>
+          </article>
+          <article class="album card" role="listitem">
+            <img src="./images/1000160012.jpg" alt="Capa do álbum Uma História Escrita pelo Dedo de Deus" loading="lazy">
+            <div class="album-body">
+              <h3>Uma História Escrita pelo Dedo de Deus (2011)</h3>
+              <a class="btn btn-ghost" href="https://open.spotify.com/search/Thalles%20Roberto%20Uma%20Hist%C3%B3ria" target="_blank" rel="noopener">Ouvir</a>
+            </div>
+          </article>
+          <article class="album card" role="listitem">
+            <img src="./images/1000160014.jpg" alt="Capa do álbum Sejam Cheios do Espírito Santo" loading="lazy">
+            <div class="album-body">
+              <h3>Sejam Cheios do Espírito Santo (2012)</h3>
+              <a class="btn btn-ghost" href="https://open.spotify.com/search/Thalles%20Roberto%20Sejam%20Cheios" target="_blank" rel="noopener">Ouvir</a>
+            </div>
+          </article>
+          <article class="album card" role="listitem">
+            <img src="./images/1000160015.jpg" alt="Capa do álbum As Canções que Canto pra Ela" loading="lazy">
+            <div class="album-body">
+              <h3>As Canções que Canto pra Ela (2016)</h3>
+              <a class="btn btn-ghost" href="https://open.spotify.com/search/Thalles%20Roberto%20Can%C3%A7%C3%B5es%20que%20Canto%20pra%20Ela" target="_blank" rel="noopener">Ouvir</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AGENDA -->
+    <section id="agenda" class="section alt" role="region" aria-labelledby="agenda-title">
+      <div class="container">
+        <h2 id="agenda-title" class="section-title">Agenda de Shows</h2>
+        <div class="table-wrap" role="region" aria-label="Tabela de shows">
+          <table class="table" role="table">
+            <thead>
+              <tr role="row">
+                <th role="columnheader">Data</th>
+                <th role="columnheader">Cidade</th>
+                <th role="columnheader">Local</th>
+                <th role="columnheader">Ingressos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr role="row">
+                <td role="cell">25/09/2025</td>
+                <td role="cell">São Paulo, SP</td>
+                <td role="cell">Auditório Luz</td>
+                <td role="cell"><a class="btn btn-sm" href="#" aria-label="Ingressos para São Paulo em 25 de setembro de 2025">Em breve</a></td>
+              </tr>
+              <tr role="row">
+                <td role="cell">10/10/2025</td>
+                <td role="cell">Belo Horizonte, MG</td>
+                <td role="cell">Arena Central</td>
+                <td role="cell"><a class="btn btn-sm" href="#" aria-label="Ingressos para Belo Horizonte em 10 de outubro de 2025">Em breve</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section" role="region" aria-labelledby="contato-title">
+      <div class="container">
+        <h2 id="contato-title" class="section-title">Contato</h2>
+        <form class="card form" aria-describedby="aviso-contato">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="seu@email.com" required>
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <p id="aviso-contato" class="form-hint">Este formulário é demonstrativo e não envia e-mails reais.</p>
+        </form>
+
+        <ul class="social">
+          <li><a href="https://www.instagram.com/thallesroberto" target="_blank" rel="noopener" aria-label="Instagram de Thalles Roberto">Instagram</a></li>
+          <li><a href="https://www.youtube.com/channel/UCR7Hv2kJrfSeoNYYgf8mrVg" target="_blank" rel="noopener" aria-label="YouTube de Thalles Roberto">YouTube</a></li>
+          <li><a href="mailto:contato@thallesroberto.com" aria-label="Enviar e-mail para o contato">E-mail</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 • Site de fã para fins educacionais e de demonstração.</p>
+      <button id="voltar-topo" class="btn btn-ghost" aria-label="Voltar ao topo">↑ Topo</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
